@@ -1,4 +1,4 @@
-describe 'creating bears table' do
+ describe 'creating bears table' do
   before do
     @db = SQLite3::Database.new(':memory:')
     @sql_runner = SQLRunner.new(@db)
